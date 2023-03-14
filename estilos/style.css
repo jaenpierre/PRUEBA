@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(205, 231, 206);
+    font-family: 'Poppins', sans-serif; /* FUENTE */
+    max-width: 900px;/* ANCHO MAXIMO */
+    margin: 0 auto; /* MARGEN */
+}
+
+nav{
+    width: 100%; 
+    height: 160px;
+    background-color: rgb(61, 211, 211);
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 100px;
+
+}
+
+
+nav ul li :hover{ /* cuando este sobre un elemento suceda algo */
+    background-color:rgba(240, 248, 255, 0.877)
+}
+
+.img-logo{
+    width: 200px;
+    padding: 100px;
+
+}
